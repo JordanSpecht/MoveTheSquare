@@ -40,7 +40,7 @@ public class Game {
 	}
 	
 	public double getSquareDx() {
-		return squareDx;
+		return squareDx*5;
 	}
 	
 	public void setSquareDy(double squareDy) {
@@ -48,6 +48,6 @@ public class Game {
 	}
 	
 	public double getSquareDy() {
-		return squareDy;
+		return squareDy*5;
 	}
 }
